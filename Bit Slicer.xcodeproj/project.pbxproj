@@ -775,7 +775,7 @@
 		77FFC105186BDA3600122357 /* ZGWatchVariableWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGWatchVariableWindowController.m; path = "Bit Slicer/ZGWatchVariableWindowController.m"; sourceTree = "<group>"; usesTabs = 1; };
 		77FFC14918711D2700122357 /* ZGEditDescriptionWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZGEditDescriptionWindowController.h; path = "Bit Slicer/ZGEditDescriptionWindowController.h"; sourceTree = "<group>"; usesTabs = 1; };
 		77FFC14A18711D2700122357 /* ZGEditDescriptionWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZGEditDescriptionWindowController.m; path = "Bit Slicer/ZGEditDescriptionWindowController.m"; sourceTree = "<group>"; usesTabs = 1; };
-		8D15AC370486D014006FF6A4 /* Bit Slicer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bit Slicer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D15AC370486D014006FF6A4 /* DeerSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeerSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -811,7 +811,7 @@
 		19C28FB0FE9D524F11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D15AC370486D014006FF6A4 /* Bit Slicer.app */,
+				8D15AC370486D014006FF6A4 /* DeerSearch.app */,
 				77E2BBA418FD88A700E41FA0 /* Bit Slicer Tests.xctest */,
 			);
 			name = Products;
@@ -1470,9 +1470,9 @@
 			productReference = 77E2BBA418FD88A700E41FA0 /* Bit Slicer Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8D15AC270486D014006FF6A4 /* Bit Slicer */ = {
+		8D15AC270486D014006FF6A4 /* DeerSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Bit Slicer" */;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "DeerSearch" */;
 			buildPhases = (
 				8D15AC2B0486D014006FF6A4 /* Resources */,
 				8D15AC300486D014006FF6A4 /* Sources */,
@@ -1485,10 +1485,10 @@
 			);
 			dependencies = (
 			);
-			name = "Bit Slicer";
+			name = DeerSearch;
 			productInstallPath = "$(HOME)/Applications";
 			productName = "Bit Slicer";
-			productReference = 8D15AC370486D014006FF6A4 /* Bit Slicer.app */;
+			productReference = 8D15AC370486D014006FF6A4 /* DeerSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1531,7 +1531,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D15AC270486D014006FF6A4 /* Bit Slicer */,
+				8D15AC270486D014006FF6A4 /* DeerSearch */,
 				77E2BBA318FD88A700E41FA0 /* Bit Slicer Tests */,
 			);
 		};
@@ -1808,7 +1808,7 @@
 /* Begin PBXTargetDependency section */
 		77E2BBB118FD88A700E41FA0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8D15AC270486D014006FF6A4 /* Bit Slicer */;
+			target = 8D15AC270486D014006FF6A4 /* DeerSearch */;
 			targetProxy = 77E2BBB018FD88A700E41FA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2587,6 +2587,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
 				CODE_SIGN_ENTITLEMENTS = "Bit Slicer/Bit Slicer Debug.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -2641,8 +2642,8 @@
 					"$(PROJECT_DIR)/deps/keystone",
 				);
 				OTHER_CFLAGS = "-D_BSDEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zgcoder.BitSlicer;
-				PRODUCT_NAME = "Bit Slicer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DeerSoft.DeerSearch;
+				PRODUCT_NAME = DeerSearch;
 				PROVISIONING_PROFILE = "";
 				RUN_CLANG_STATIC_ANALYZER = NO;
 				SDKROOT = macosx;
@@ -2697,7 +2698,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = ZCK58M894E;
+				DEVELOPMENT_TEAM = YH5YHKN6BD;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2747,8 +2748,8 @@
 					"$(PROJECT_DIR)/deps/udis86/udis86",
 					"$(PROJECT_DIR)/deps/keystone",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zgcoder.BitSlicer;
-				PRODUCT_NAME = "Bit Slicer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DeerSoft.DeerSearch;
+				PRODUCT_NAME = DeerSearch;
 				PROVISIONING_PROFILE = "";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = macosx;
@@ -2851,7 +2852,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Bit Slicer" */ = {
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "DeerSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C05733C808A9546B00998B17 /* Debug */,
